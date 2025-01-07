@@ -1,0 +1,31 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Mulish", sans-serif;
+}
+$bg: #192a46;
+$content-bg: #030c1b;
+$secondary-bg: #171A3B;
+$input-bg: #323862;
+$active: #ffcf00;
+$primary-t: #a7b7dd;
+$secondary-t: #bfbfbf;
+$third-t: #9fa2b4;
+$btn-p: #15f3fc;
+$white: #fff;
+$black: #000;
+$black-2: #000;
+
+.light {
+  $bg: #192a46;
+  $content-bg: #030c1b;
+  $secondary-bg: #16193a;
+  $input-bg: #323862;
+  $active: #ffcf00;
+  $primary-t: #a7b7dd;
+  $secondary-t: #bfbfbf;
+  $third-t: #9fa2b4;
+  $btn-p: #15f3fc;
+  $white: #fff;
+  $black: #000;
+  $black-2: #000;
+}

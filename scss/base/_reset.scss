@@ -1,0 +1,18 @@
+@use "./variables" as *;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    background-color: $bg; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px ;
+    height: 1024px;
+}
