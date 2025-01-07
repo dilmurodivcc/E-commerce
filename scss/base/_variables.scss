@@ -2,30 +2,45 @@
   --font-family: "Poppins", sans-serif;
   --second-family: "Mulish", sans-serif;
 }
-$bg: #192a46;
-$content-bg: #030c1b;
-$secondary-bg: #171A3B;
-$input-bg: #323862;
-$active: #ffcf00;
-$primary-t: #a7b7dd;
-$secondary-t: #bfbfbf;
-$third-t: #9fa2b4;
-$btn-p: #15f3fc;
-$white: #fff;
-$black: #000;
-$black-2: #000;
+:root {
+  --bg: #192a46;
+  --content-bg: #030c1b;
+  --secondary-bg: #171a3b;
+  --input-bg: #323862;
+  --active: #ffcf00;
+  --primary-t: #a7b7dd;
+  --secondary-t: #bfbfbf;
+  --third-t: #9fa2b4;
+  --btn-p: #15f3fc;
+  --white: #fff;
+  --black: #000;
+  --black-2: #000;
+}
 
-.light {
-  $bg: #192a46;
-  $content-bg: #030c1b;
-  $secondary-bg: #16193a;
-  $input-bg: #323862;
-  $active: #ffcf00;
-  $primary-t: #a7b7dd;
-  $secondary-t: #bfbfbf;
-  $third-t: #9fa2b4;
-  $btn-p: #15f3fc;
-  $white: #fff;
-  $black: #000;
-  $black-2: #000;
+body.light {
+  --bg: #f8f7fc;
+  --content-bg: #f8f7fc;
+  --secondary-bg: #ffffff;
+  --input-bg: #ffffff;
+  --active: #f8faff;
+  --primary-t: #a7b7dd;
+  --secondary-t: #bfbfbf;
+  --third-t: #9fa2b4;
+  --btn-p: #c3dffa;
+  --white: #000;
+  --black: #fff;
+  --black-2: #000;
+  .dark{
+    display: none;
+
+  }
+  .light{
+    display: block !important;
+  }
+  .dark-font{
+    display: none;
+  }
+  .light-font{
+    display: block !important;
+  }
 }

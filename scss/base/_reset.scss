@@ -9,7 +9,7 @@
 
 
 body{
-    background-color: $bg; 
+    background-color: var(--bg); 
     display: flex;
     align-items: center;
     justify-content: center;

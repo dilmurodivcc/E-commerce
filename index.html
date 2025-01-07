@@ -9,22 +9,23 @@
       href="./assets/icons/fluent_power-24-filled.svg"
       type="image/x-icon"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./scss/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="./app.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <main>
-      <div class="menu">
-        <img
-          style="display: block; margin: 0 auto"
-          src="./assets/icons/fluent_power-24-filled.svg"
-          alt=""
-        />
+    <main id="center-content" data-aos="zoom-in">
+      <div class="menu" data-aos="fade-right" data-aos-duration="1000">
+        <button role="button" id="theme-toggle">
+         <img class="dark" src="./assets/icons/logo-black.svg" alt="">
+         <img style="display: none;" class="light" src="./assets/icons/logo-white.svg" alt="">
+        </button>
         <div class="nav">
           <button class="primary-btn">
             <img src="./assets/icons/btn-icon.svg" alt="" />
@@ -190,24 +191,24 @@
           <img src="./assets/images/avatar.svg" alt="" />
         </header>
         <div class="cards">
-          <div class="card">
+          <div class="card" data-aos="flip-up" data-aos-duration="1300">
             <b>Shipped orders</b>
             <h2>67</h2>
             <img src="./assets/images/truck.svg" alt="" />
           </div>
-          <div class="card">
+          <div class="card" data-aos="flip-up" data-aos-duration="1800">
             <b>Pending orders</b>
             <h2>09</h2>
             <img src="./assets/images/Vector (9).svg" alt="" />
           </div>
-          <div class="card">
+          <div class="card" data-aos="flip-up" data-aos-duration="2300">
             <b>New orders</b>
             <h2>35</h2>
             <img src="./assets/images/Vector (10).svg" alt="" />
           </div>
         </div>
         <div class="grid">
-          <div class="first">
+          <div class="first" data-aos="zoom-in" data-aos-duration="700">
             <div class="head">
               <div class="text">
                 <b>Inbox</b>
@@ -225,7 +226,7 @@
               <p>4:39</p>
             </div>
           </div>
-          <div class="second">  
+          <div class="second" data-aos="zoom-in" data-aos-duration="700">
             <div class="row">
               <h4>Recent Activity</h4>
               <a href="">View all</a>
@@ -344,13 +345,14 @@
               <button class="white">Default</button>
             </div>
           </div>
-          <div class="third">
+          <div class="third" data-aos="flip-left" data-aos-duration="1000">
             <div class="row">
               <div class="text">
                 <h4>Today’s Sales</h4>
                 <small>30 Sept 2021</small>
               </div>
-              <img src="./assets/images/graph help.svg" alt="" />
+              <img class="dark-font" src="./assets/images/graph help.svg" alt="" />
+              <img class="light-font" style="display: none;" src="./assets/images/graph help (1).svg" alt="" />
             </div>
             <div class="diogram">
               <img src="./assets/images/graphic mask.svg" alt="" />
@@ -366,5 +368,6 @@
         </div>
       </div>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
