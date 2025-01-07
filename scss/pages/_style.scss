@@ -6,47 +6,50 @@ main {
   box-shadow: 0 24px 69px 0 rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   height: 100%;
-  border: 6px solid #fff;
+  border: 6px solid $white;
   display: flex;
   align-items: center;
   justify-content: start;
   overflow: hidden;
 }
-.menu{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-direction: column;
-    gap: 44px;
-    background-color: $secondary-bg;
-    height: 100%;
-    width: 16%;
-    padding: 20px;
-    .nav{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 44px;
-    }
-    
-}
-.primary-btn{
-  font-family: var(--font-family);
-font-weight: 500;
-font-size: 14px;
-background-color: $active;
-color: $input-bg;
-border-radius: 8px;
-padding: 10px 12px;
-display: flex;
-align-items: center;
-gap: 10px;
-border: none;
-}
-.secondary-btn{
-  background: transparent;
-  border: none;
+.menu {
   display: flex;
   align-items: center;
-
+  justify-content: start;
+  flex-direction: column;
+  gap: 40px;
+  background-color: $secondary-bg;
+  height: 100%;
+  width: 16%;
+  padding: 20px;
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 52px;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 13px;
+    h4 {
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 143%;
+      color: $white;
+    }
+    p {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 133%;
+      color: $secondary-t;
+      &:last-child {
+        margin-top: 30px;
+        margin-bottom: 20px; ;
+      }
+    }
+  }
 }
